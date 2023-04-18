@@ -1,10 +1,1 @@
-## install
-```
-$ npm i 
-```
-
-## Development
-
-```
-$ npm start
-```
+Landing page for my projects
