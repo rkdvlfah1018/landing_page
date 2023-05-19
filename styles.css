@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(241, 241, 225);
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.headerContent{
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    margin-right: 5%;
+}
+
+.contentContainer{
+    padding: 2.5%;
+}
