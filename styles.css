@@ -22,20 +22,9 @@ section{
     background-color: rgb(241, 241, 225);
 }
 
-.info{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    display: inline-block;
-    width: 60%;
-}
 
-.infoContent{
-    display: inline-block;
-    width: 170px;
-    vertical-align: top;
-    margin-right: 5%;
-}
+/* ////////////////////////////////////// */
+/* Common */
 
 .header{
     padding-top: 2.5%;
@@ -65,6 +54,25 @@ section{
 a{
     color: black;
     text-decoration: none;
+}
+
+
+/* ////////////////////////////////////// */
+/* Main landing Page */
+
+.info{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    width: 60%;
+}
+
+.infoContent{
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    margin-right: 5%;
 }
 
 #mainLanding{
@@ -98,4 +106,16 @@ a{
     font-size: 100px;
     bottom: 10%;
     position: absolute;
+}
+
+
+/* ////////////////////////////////////// */
+/* Subsections */
+
+.sectionTitle{
+    display: inline-block;
+    width: 170px;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: 50px; 
 }
