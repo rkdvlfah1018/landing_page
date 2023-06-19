@@ -143,6 +143,7 @@ input[type=radio] {
     /* Horizontally center the content */
     /* align-items: center;  */
     /* Vertically center the content */
+    /* want to center content vertically, horizontally already done */
     margin: auto;
 }
 
