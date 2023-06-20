@@ -145,6 +145,7 @@ input[type=radio] {
     /* Vertically center the content */
     /* want to center content vertically, horizontally already done */
     margin: auto;
+    /* display: flex; */
 }
 
 .work-card{
