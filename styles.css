@@ -147,23 +147,33 @@ input[type=radio] {
 
 .work-cards{
     position: relative;
-    width:75%;
-    /* height: 100%; */
+    white-space: nowrap;
+    text-align: center;
+}
+
+.work-card-container{
+    width:100%;
+    display: inline-block;
+}
+
+.work-contents{
+    width: 75%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 12.5%;
 }
 
 .work-card{
     position: relative;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
     height: 75%;
     width: 80%;
     margin: auto;
     border-left: solid 10px;
-    /* border-color: white; */
     background-color: #f1ede1;
-    /*  */
-    /* border-radius: 40px; */
 }
 
 .work-img{
